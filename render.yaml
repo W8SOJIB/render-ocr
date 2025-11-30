@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ocr-api
+    env: docker
+    plan: free
+    branch: main
+    region: singapore
